@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Open and Close Demo</title>
+
+    <link rel="stylesheet" href="open_close/open_close.css">
+    <script src="open_close/open_close.js"> </script>
+</head>
+        <div id="center" class="left">
+          <p>
+            Preview <br><br> Hover mouse over a product to enlarge it here
+          </p>
+        </div>
+        <div id="fixed_caption" class="left">
+          <p>Product name:</p>
+        </div>
+        <div id = "caption" class="left">
+          <p>Product name will appear here</p>
+        </div>
+
+
+<div id="table">
+  <table id="para" class="right">
+    <tr>
+      <th>\</th>
+      <th>Kids</th>
+      <th>Women</th>
+      <th>Men</th>
+    </tr>
+    <tr>
+      <th>Tops</th>
+      <td><br><img alt="Red and Black Top" src="https://ae01.alicdn.com/kf/HTB1SK8siNPI8KJjSspfq6ACFXXaS.jpg?smt_ispass_1446891" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+      <td><br><img alt="Pink Top" src="https://m.media-amazon.com/images/I/71ej+3vLzkL._SR500,500_.jpg" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+      <td><br><img alt="Black Top" src="https://5.imimg.com/data5/UR/CT/MY-1044551/mens-polo-t-shirt-500x500.jpg" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"> </td>
+    </tr>
+    <tr>
+      <th>Pants</th>
+      <td><br><img alt="Black Pants" src="https://media.karousell.com/media/photos/products/2020/6/9/lp_girl_kids_square_pants_1591697818_5ae14d6e_progressive.jpg" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+      <td><br><img alt="Red Pants" src="https://dkstatics-public.digikala.com/digikala-products/111250810.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+      <td><br><img alt="Beige Pants" src="https://media.tractorsupply.com/is/image/TractorSupplyCompany/1218704?$456$" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+    </tr>
+    <tr>
+      <th>Shoes</th>
+      <td><br><img alt="Denim Shoes" src="https://www.dhresource.com/0x0/f2/albu/g5/M01/BE/19/rBVaI1iUq46ANMVMAAN5HLVpMjA325.jpg" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+      <td><br><img alt="Pink Shoes" src="https://www.dhresource.com/0x0/f2/albu/g9/M00/41/C0/rBVaWF1Q_dSAV_qGAAPZ7_wVC5A124.jpg" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+      <td><br><img alt="Black Shoes" src="https://images-na.ssl-images-amazon.com/images/I/717eSRLENfL._UL1500_.jpg" onmouseover="showPic(this)" class="pic" onmouseout="goBack()"></td>
+    </tr>
+  </table>
+  <button type="button" onclick="openFn()">Open Table</button>
+  <button type="button" onclick="closeFn()">Close Table</button>
+</div>
+
+
+</footer>
+</body>
+</html>
